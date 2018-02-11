@@ -1,0 +1,278 @@
+[
+  {
+    "x": "0",
+    "y": "0",
+    "id": 1,
+    "type": "page",
+    "align": "left",
+    "scale": 1,
+    "width": 320,
+    "height": 600,
+    "rotate": "0",
+    "zIndex": 1,
+    "bgColor": "#fff",
+    "opacity": 1,
+    "compoent": [
+      {
+        "x": 18,
+        "y": -12,
+        "id": 2,
+        "url": "data/f4566f8874bb962faaf72abdb3be8c34.png",
+        "type": "image",
+        "align": "left",
+        "scale": 1,
+        "width": 225,
+        "height": 609.0834697217676,
+        "rotate": "0",
+        "zIndex": 1,
+        "animate": {
+          "in": {
+            "time": 1000,
+            "type": "fadeIn"
+          },
+          "out": {
+            "time": 1000,
+            "type": "fadeOut"
+          }
+        },
+        "opacity": 1
+      },
+      {
+        "x": 38,
+        "y": 244.53999999999996,
+        "id": 4,
+        "url": "data/df1d01682ecc344c0f3f437fcfbc0e3a.png",
+        "type": "image",
+        "align": "left",
+        "scale": 1,
+        "width": 261,
+        "height": 224.46,
+        "rotate": "0",
+        "zIndex": 2,
+        "animate": {
+          "in": {
+            "time": 2000,
+            "type": "fadeInDown"
+          },
+          "out": {
+            "time": 2000,
+            "type": ""
+          }
+        },
+        "opacity": 1
+      },
+      {
+        "x": -100,
+        "y": -50,
+        "id": 5,
+        "url": "data/ebf8d9989107bd435dc96c65fb799d61.png",
+        "type": "image",
+        "align": "left",
+        "scale": 1,
+        "width": 400,
+        "height": 266,
+        "rotate": "0",
+        "zIndex": 3,
+        "opacity": 1
+      },
+      {
+        "x": 75,
+        "y": 159,
+        "id": 10,
+        "str": "祝各位老师教师快乐",
+        "size": 20,
+        "type": "text",
+        "align": "left",
+        "color": "#f10000",
+        "scale": 1,
+        "style": "bold",
+        "width": 192,
+        "family": "宋体",
+        "height": 40,
+        "rotate": "0",
+        "zIndex": 4,
+        "animate": {
+          "in": {
+            "time": 1000,
+            "type": "bounceInRight"
+          },
+          "out": {
+            "time": 3000,
+            "type": ""
+          }
+        },
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "x": "0",
+    "y": "0",
+    "id": 3,
+    "type": "page",
+    "align": "left",
+    "scale": 1,
+    "width": 320,
+    "height": 600,
+    "rotate": "0",
+    "zIndex": 1,
+    "bgColor": "#fff",
+    "opacity": 1,
+    "compoent": [
+      {
+        "x": 38,
+        "y": 255,
+        "id": 6,
+        "url": "data/ff5471b1ee007cdf3cd3dced69a0ab86.png",
+        "type": "image",
+        "align": "left",
+        "scale": 1,
+        "width": 265,
+        "height": 214.52380952380955,
+        "rotate": "0",
+        "zIndex": 2,
+        "animate": {
+          "in": {
+            "time": 1000,
+            "type": "fadeInLeft"
+          },
+          "out": {
+            "time": 0,
+            "type": ""
+          }
+        },
+        "opacity": 1
+      },
+      {
+        "x": -187,
+        "y": 411,
+        "id": 7,
+        "url": "data/56383af4c54f8c1b1ed2a8fc2c44c036.png",
+        "type": "image",
+        "align": "left",
+        "scale": 1,
+        "width": 650,
+        "height": 529,
+        "rotate": "0",
+        "zIndex": 3,
+        "opacity": 1
+      },
+      {
+        "x": -2,
+        "y": 83,
+        "id": 8,
+        "url": "data/e927413313776f087eb1d2e80d9ca2fe.png",
+        "type": "image",
+        "align": "left",
+        "scale": 1,
+        "width": 174,
+        "height": 173.04132231404958,
+        "rotate": "0",
+        "zIndex": 4,
+        "animate": {
+          "in": {
+            "time": 1000,
+            "type": "bounceInUp"
+          },
+          "out": {
+            "time": 1000,
+            "type": "bounceOutRight"
+          }
+        },
+        "opacity": 1
+      },
+      {
+        "x": -4,
+        "y": -0.35833333333357587,
+        "id": 10,
+        "url": "data/bfd7a53eee26b2ecc56b07ac3182e25d.png",
+        "type": "image",
+        "align": "left",
+        "scale": 1,
+        "width": 353,
+        "height": 769.2458333333334,
+        "rotate": "0",
+        "zIndex": 1,
+        "animate": {
+          "in": {
+            "time": 1000,
+            "type": "fadeIn"
+          },
+          "out": {
+            "time": 0,
+            "type": ""
+          }
+        },
+        "opacity": 1
+      },
+      {
+        "x": 92,
+        "y": 205,
+        "id": 10,
+        "str": "中秋节快乐",
+        "size": 28,
+        "type": "text",
+        "align": "left",
+        "color": "#ff0404",
+        "scale": 1,
+        "style": "bold",
+        "width": 153,
+        "family": "微软雅黑",
+        "height": 40,
+        "rotate": "0",
+        "zIndex": 6,
+        "animate": {
+          "in": {
+            "time": 1000,
+            "type": "fadeInRight"
+          },
+          "out": {
+            "time": 0,
+            "type": ""
+          }
+        },
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "x": "0",
+    "y": "0",
+    "id": 10,
+    "type": "page",
+    "align": "left",
+    "scale": 1,
+    "width": 320,
+    "height": 600,
+    "rotate": "0",
+    "zIndex": 1,
+    "bgColor": "#fff",
+    "opacity": 1,
+    "compoent": [
+      {
+        "x": -17,
+        "y": 19.99199999999996,
+        "id": 9,
+        "url": "data/e9830c09754cd9ac3db86a77136b81ff.png",
+        "type": "image",
+        "align": "left",
+        "scale": 1,
+        "width": 352,
+        "height": 503.008,
+        "rotate": "0",
+        "zIndex": 1,
+        "animate": {
+          "in": {
+            "time": 2000,
+            "type": "fadeIn"
+          },
+          "out": {
+            "time": 2000,
+            "type": ""
+          }
+        },
+        "opacity": 1
+      }
+    ]
+  }
+]

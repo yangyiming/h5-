@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>预览界面</title>
+	    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.css">
+    <link rel="stylesheet" type="text/css" href="css/imgareaselect-default.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-colorpicker.css" />
+    <link rel="stylesheet" type="text/css" href="css/layui.css" />
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script type="text/javascript" src="js/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="js/lib/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/lib/bootstrap-select.js"></script>
+    <script type="text/javascript" src="js/lib/template-native.js"></script>
+     <script type="text/javascript" src="js/lib/jquery.imgareaselect.pack.js"></script>
+    <script type="text/javascript" src="js/lib/bootstrap-colorpicker.js"></script>
+    <script type="text/javascript" src="js/lib/hammer.js"></script>
+     <script type="text/javascript" src="js/lib/layer.js"></script>
+    <script type="text/javascript" src="js/lib/global.js"></script>
+    <script type="text/javascript" src="js/compoent/commonAnimate.js"></script>
+    <script type="text/javascript" src="js/compoent/common.js"></script>
+    <script type="text/javascript" src="js/compoent/text.js"></script>
+    <script type="text/javascript" src="js/compoent/image.js"></script>
+    <script type="text/javascript" src="js/compoent/page.js"></script>
+    <script type="text/javascript" src="js/compoent/stage.js"></script>
+</head>
+<body>
+<div id="root" >
+	<div class="arrow">
+		<span id="next">&gt;</span>
+		<span id="prev">&lt;</span>
+	</div>
+</div>
+<script>
+	$(function(){
+		$(window).on('message',function(e){
+			var data = JSON.parse(e.originalEvent.data)
+			global.STAGE = new stage(data,$('#root'))
+		})
+	})
+	
+	// new stage(data,$('#root'))
+</script>
+</body>
+</html>

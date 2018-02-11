@@ -1,0 +1,22 @@
+<div id="animateEdit">
+    <div class="box">
+     <span>入场</span>
+     <select class="selectpicker" id="inStage" >
+      <% for(var x=0;x<animate.in.length;x++){%>
+            <option type=<%= animate.in[x].name%>><%= animate.in[x].text%></option>
+      <% }%>
+      </select>
+      </div>
+      <div class="box">
+        <span>出场</span>
+  	     <select class="selectpicker" id="outStage" >
+                <% for(var x=0;x<animate.out.length;x++){%>
+                        <option type=<%= animate.out[x].name%>><%= animate.in[x].text%></option>
+              <% }%>
+  	      </select>
+        </div>
+        <div class="box">
+          <span>动画持续时间</span>
+            <input type="text" name="time" id="animateTime" class="form-control"/>
+        </div>
+</div>

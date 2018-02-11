@@ -1,0 +1,159 @@
+body,html,#root{
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+
+}
+ul {
+	list-style: none
+	margin:0px;
+	padding: 0px;
+}
+
+#pageEdit {
+	width: 200px;
+	border:1px solid #ddd;
+	position: absolute;
+	z-index: 3;
+	top: 60px;
+}
+#pageEdit .box {
+	padding: 0px 10px 10px;
+	overflow: auto;
+}
+#pageEdit li {
+	width: 100%;
+	height:200px;
+	overflow: hidden;
+	border:1px solid #ddd;
+	cursor: pointer;
+	background-color: #ddd;
+	margin-top:10px;
+}
+#pageEdit li.active {
+	border:1px solid #ff8787;
+}
+#pageEdit li:first-child {
+	margin-top: 0px;
+}
+#pageEdit  button {
+	margin: 10px;
+}
+#editor {
+	position: absolute;
+	right: 0px;
+	top:60px;
+	z-index:5;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	padding: 10px;
+	display: none;
+}
+#addCompoentEdit {
+	width: 100%;
+	height: 50px;
+	background-color:#d7d7d7;
+	position: absolute;
+	z-index: 4
+}
+#addCompoentEdit button {
+	padding: 10px;
+	border: none;
+	background-color: #eee;
+	border-radius: 2px;
+	float: left;
+	margin-top: 5px;
+	margin: 5px 10px; 
+
+}
+#addCompoentEdit button:hover {
+	background-color: #c2c2c2;
+}
+#addCompoentEdit #preview{
+	float: right;
+	background-color: #ef3232;
+	color: #fff;
+}
+#addCompoentEdit  #deleteCompoent {
+	display: none
+}
+/*文字编辑器*/
+#textEdit {
+/*	position: absolute;
+	right: 0px;
+	z-index:3;*/
+}
+
+/*图片编辑器*/
+#imageEdit {
+	width:300px;
+	height:300px;
+}
+#imageEdit img{
+	max-width: 100%;
+	max-height:100%;
+}
+/* 动画编辑器 */
+#animateEdit {
+
+}
+#animateEdit .box{
+	margin:10px 0px;
+} 
+#animateEdit .form-control{
+	display: inline-block;
+	width: auto
+}
+/* 手机背景 */
+.mobileBg {
+	width: 100%;
+	height: 100%;
+}
+/* 手机切换箭头*/
+.arrow {
+	
+}
+.arrow span {
+	display: block;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background-color: #ddd;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 20px;
+	position: absolute;
+	top:50%;
+	z-index: 2;
+	cursor: pointer;
+}
+.arrow #next {
+	right:5%;
+}
+.arrow #prev {
+	left: 5%;
+}
+
+/* 素材编辑器 */
+#sucaiEdit {
+	width: 300px;
+}
+#sucaiEdit li{
+	width: 100px;
+	height: 100px;
+	border: 1px solid #ccc;
+	float: left;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 10px;
+	margin: 10px;
+	cursor: pointer;
+}
+#sucaiEdit li img{
+	height:100%;
+	vertical-align: middle;
+}
+
+
+

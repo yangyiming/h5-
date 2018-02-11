@@ -1,0 +1,83 @@
+[
+     {
+      "id":1,
+      "type":"page",
+      "x": 0,
+      "y": 0,
+      "rotate": 0,
+      "bgColor":"red",
+      "compoent":
+        [
+          {
+              "id": 2,
+              "type": "text",
+              "str": "hello world",
+              "width": 100,
+              "height": 100,
+              "rotate": 0,
+              "scale": 1,
+              "opacity": 1,
+              "x": 100,
+              "y": 100,
+              "family": "黑体",
+              "size": 10,
+              "style": "bold",
+              "align": "left",
+              "zIndex": 1,
+              "animate":{
+                 "in":{
+                   "type":"fly",
+                   "time":2000
+                 },
+                 "out":{
+                   "type":"fly",
+                   "time":2000
+                 }
+              }
+          },
+          {
+            "id": 3,
+             "type": "image",
+              "url": "../image/2.jpg",
+              "width": 690,
+              "height": 690,
+              "rotate": 100,
+              "scale": 1,
+              "opacity": 1,
+              "x": 300,
+              "y": 300,
+              "zIndex": 2
+            
+          }
+        ]
+    },
+    {
+      "id":4,
+      "type":"page",
+      "bgColor":"blue",
+       "x": 0,
+      "y": 0,
+      "compoent":
+        [
+          {
+              "id": 5,
+              "type": "text",
+              "str": "hello world",
+              "width": 100,
+              "height": 100,
+              "rotate": 0,
+              "scale": 1,
+              
+              "opacity": 1,
+              "x": 300,
+              "y": 300,
+              "family": "宋体",
+              "size": 10,
+              "style": "bold",
+              "align": "left",
+              "zIndex": 1
+            
+          }
+        ]
+    }
+]
